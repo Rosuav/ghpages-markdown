@@ -1,5 +1,5 @@
 {% if page.url == include.dest %}
 <a href="{{ include.dest }}" class="current">{{ include.title }}</a>
 {% else %}
-<a href="{{ include.dest }}" class="notcurrent">{{ include.title }}</a>
+<a href="{{ include.dest }}">{{ include.title }}</a>
 {% endif %}
