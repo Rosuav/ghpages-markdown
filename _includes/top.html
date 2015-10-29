@@ -6,6 +6,6 @@
 <body>
 <h1>{{ include.title }}</h1>
 <ul>
-<li><a href="/page2">Page 2</a></li>
-<li><a href="/page3.html">Page 3</a></li>
+<li>{% include link title="Page 2" dest="/page2" %}</li>
+<li>{% include link title="Page 3" dest="/page3.html" %}</li>
 </ul>
